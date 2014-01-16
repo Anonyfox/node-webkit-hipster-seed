@@ -1,0 +1,16 @@
+{
+  "name": "do-my-build",
+  "version": "0.0.1",
+  "description": "Using Grunt to build my little program",
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-node-webkit-builder": "~0.1.14"
+  },
+  "scripts": {
+    "build": "src/node_modules/.bin/brunch watch --server src",
+    "test": "src/node_modules/.bin/karma start src/test/karma.conf.js",
+    "start": "nw ."
+  }
+}

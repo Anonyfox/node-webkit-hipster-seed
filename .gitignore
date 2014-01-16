@@ -1,0 +1,21 @@
+# global garbage
+**/.DS_Store
+**/*.sublime-project
+**/*.sublime-workspace
+
+# build level stuff
+node_modules
+node_modules/*
+
+# app level stuff
+src/nbproject
+src/manifest.mf
+src/build.xml
+src/node_modules
+src/node_modules/*
+src/npm-debug.log
+src/test/test-results.xml
+src/bower_components/
+
+# asset level stuff
+src/_public/randomfile.txt
