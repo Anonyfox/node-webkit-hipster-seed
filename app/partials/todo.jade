@@ -1,0 +1,16 @@
+div(ng-app='ng-app')
+  h2 Todo
+  div(ng-controller='TodoCtrl')
+    span {{remaining()}} of {{todos.length}} remaining
+    |  [
+    a(href='', ng-click='archive()') archive
+    | ]
+    ul.unstyled
+      li(ng-repeat='todo in todos')
+        label(class='checkbox inline')
+          input(type='checkbox', ng-model='todo.done')
+          span(class='done{{todo.done}}') {{todo.text}}
+    form(class='form-inline', ng-submit='addTodo()')
+      p
+        input(type='text', ng-model='todoText', size='30', placeholder='add new todo here')
+        input.btn.btn-primary(type='submit', value='add')

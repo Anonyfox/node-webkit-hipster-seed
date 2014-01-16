@@ -1,17 +1,17 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-    pkg: grunt.file.readJSON('src/package.json'),
+    pkg: grunt.file.readJSON('_public/package.json'),
     nodewebkit: {
       options: {
         version: "0.8.3",
-        build_dir: './builds',
+        build_dir: './dist',
         // specifiy what to build
         mac: true,
         win: true,
         linux32: false,
         linux64: false
       },
-      src: './src/_public/**/*'
+      src: './_public/**/*'
     },
   });
 

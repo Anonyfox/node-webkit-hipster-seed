@@ -1,21 +1,23 @@
-# global garbage
 **/.DS_Store
-**/*.sublime-project
-**/*.sublime-workspace
+nbproject
+manifest.mf
+build.xml
 
-# build level stuff
 node_modules
+
+.project
+.settings
+.idea/*
+
+# _public
 node_modules/*
+npm-debug.log
 
-# app level stuff
-src/nbproject
-src/manifest.mf
-src/build.xml
-src/node_modules
-src/node_modules/*
-src/npm-debug.log
-src/test/test-results.xml
-src/bower_components/
+test/test-results.xml
 
-# asset level stuff
-src/_public/randomfile.txt
+# Bower stuff.
+bower_components/
+
+# build stuff.
+dist
+dist/*
