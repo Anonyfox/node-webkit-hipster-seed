@@ -9,7 +9,8 @@
     "url": ""
   },
   "scripts": {
-    "build": "node_modules/.bin/brunch watch --server",
+    "init": "./scripts/init.sh",
+    "build": "node_modules/.bin/brunch watch --server -P",
     "test": "node_modules/.bin/karma start test/karma.conf.js",
     "start": "nw ."
   },
