@@ -5,6 +5,8 @@ Bootstrap a crossplatform Desktop Application using tools you probably never hea
 
 #What is this?
 
+![How NWHS works](http://imgur.com/u8nu0A2)
+
 Imagine building a Single Page App (SPA) with [Angular.js](http://angularjs.org/), using the [brunch](http://brunch.io/) skeleton from [angular-brunch-seed](https://github.com/scotch/angular-brunch-seed).
 
 This means you're using: 
