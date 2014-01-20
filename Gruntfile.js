@@ -8,8 +8,8 @@ module.exports = function(grunt) {
         // specifiy what to build
         mac: true,
         win: true,
-        linux32: false,
-        linux64: false
+        linux32: true,
+        linux64: true
       },
       src: './_public/**/*'
     },
