@@ -9,10 +9,10 @@
     "url": ""
   },
   "scripts": {
-    "compiler": "node_modules/.bin/brunch watch --server -P",
-    "test": "node_modules/.bin/karma start test/karma.conf.js",
-    "app": "node_modules/.bin/nodewebkit _public",
-    "deploy": "node_modules/.bin/grunt"
+    "compiler": "brunch watch --server -P",
+    "test": "karma start test/karma.conf.js",
+    "app": "nodewebkit _public",
+    "deploy": "grunt"
   },
   "dependencies": {
     "jade": "~0.33",
