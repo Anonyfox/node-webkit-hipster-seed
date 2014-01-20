@@ -1,7 +1,11 @@
 node-webkit-hipster-seed
 ========================
 
-Bootstrap a crossplatform Desktop Application using tools you probably never heard of. 
+Bootstrap a crossplatform Desktop Application using tools you probably never heard of.
+
+If you're familiar with the node.js world, this sketch should get you informed, if not: an [explanation](#explanation) is placed below the workflow.
+
+![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
 
 #Workflow
 
@@ -19,7 +23,7 @@ You need the following stuff installed on your machine:
 brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp
 ```
 
-*This may take a few minutes depending on your hadrware and internet connection, since this git repo will be cloned, a bunch of npm modules will be installed, including the somewhat big [node-webkit](https://github.com/rogerwang/node-webkit), and several bower modules afterwards.*
+*This may take a few minutes depending on your hardware and internet connection, since this git repo will be cloned, a bunch of npm modules will be installed, including the somewhat big [node-webkit](https://github.com/rogerwang/node-webkit), and several bower modules afterwards.*
 
 ###2. Develop an AngularJS App on Steroids!
 
@@ -60,7 +64,10 @@ and you'll have your final application folders located in `/dist` for each major
 
 *so far only tested on OSX. The application icon and several minor features still require some work, have a look at [grunt-node-webkit-builder](https://github.com/mllrsohn/grunt-node-webkit-builder) if you want to give a helping hand.*
 
+<a id="explanation"></a>
 #So, what is this?
+
+Let's look at the sketch again:
 
 ![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
 
