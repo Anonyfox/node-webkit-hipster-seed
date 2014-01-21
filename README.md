@@ -96,3 +96,17 @@ Last but not least: ship your app with ease! Just type `npm run deploy`, and you
 #Licence
 
 MIT. Drop me a line if some of the used stuff collides with the MIT Licence. 
+
+#Feedback
+
+- Just use the issues section to discuss features or report bugs.
+- There is a ongoing discussion on [HackerNews](https://news.ycombinator.com/item?id=7094465). 
+- If you have general questions not related to this project, you may tweet to [@Hisako1337](https://twitter.com/Hisako1337) (that's me.).
+
+#Roadmap
+
+So far everything described should work as is, but there are some more advanced features I'd like to see: 
+- include [Apache Cordova](http://cordova.apache.org/) in the build task, to build crossplatform *mobile* apps additionally.
+- include [Greenworks](https://github.com/greenheartgames/greenworks) to make it easy to sell your games on steam.
+- develop an automatic updating mechanism for the apps, as it is used in Google Chrome to keep the App up to date.
+- set up a default storage solution, probably [NeDB](https://github.com/louischatriot/nedb) with a thin wrapper/API. 
