@@ -1,12 +1,12 @@
 {
-  "author": "Your Name",
-  "name": "package-name",
-  "description": "Package description",
-  "version": "0.0.1",
-  "homepage": "",
+  "author": "Maximilian Stroh",
+  "name": "node-webkit-hipster-seed",
+  "description": "Bootstrap a crossplatform Desktop Application using tools you probably never heard of.",
+  "version": "0.0.2",
+  "homepage": "https://github.com/Anonyfox/node-webkit-hipster-seed",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Anonyfox/node-webkit-hipster-seed"
   },
   "scripts": {
     "compiler": "brunch watch -P",
