@@ -19,7 +19,8 @@
     "angular-resource": "1.2.5",
     "angular-route": "1.2.5",
     "angular-cookies": "1.2.5",
-    "angular-mocks": "1.2.5"
+    "angular-mocks": "1.2.5",
+    "components-underscore": "~1.5.2"
   },
   "overrides": {
     "bootstrap-less": {

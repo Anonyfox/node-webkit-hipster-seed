@@ -9,7 +9,7 @@
     "url": ""
   },
   "scripts": {
-    "compiler": "brunch watch --server -P",
+    "compiler": "brunch watch -P",
     "test": "karma start test/karma.conf.js",
     "app": "nodewebkit _public",
     "deploy": "grunt"

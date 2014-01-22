@@ -1,17 +1,37 @@
 {
-  "author": "Maximilian Stroh",
-  "name": "node-webkit-hipster-seed",
-  "description": "Package description",
+  "author": "My Name",
+  "name": "MyAwesomeApp",
+  "description": "Package Description",
   "version": "0.0.1",
   "homepage": "",
+  "private": true,
   "repository": {
     "type": "git",
     "url": ""
   },
   "main": "index.html",
+  "node-main": "",
+  "single-instance": true,
+  "chromium-args": "",
+  "dom_storage_quota": 1024,
   "window": {
+    "//": "screen settings",
+    "title": "my awesome app",
+    "icon": "link.png",
     "toolbar": true,
+    "frame": true,
+    "position": "center",
     "width": 1024,
-    "height": 786
+    "height": 768,
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600,
+    "resizable": true,
+    "always-on-top": false,
+    "fullscreen": false
+  },
+  "dependencies": {
+    "nedb": "~0.9.4"
   }
 }
