@@ -1,5 +1,10 @@
 angular.module('partials', [])
 .run(['$templateCache', function($templateCache) {
+  return $templateCache.put('/partials/partial1.html', [
+'',
+'<p>This is the partial for view 1.</p>',''].join("\n"));
+}])
+.run(['$templateCache', function($templateCache) {
   return $templateCache.put('/partials/nav.html', [
 '',
 '<ul class="nav">',
@@ -7,11 +12,6 @@ angular.module('partials', [])
 '  <li ng-class="getClass(\'/view1\')"><a ng-href="#/view1">view1</a></li>',
 '  <li ng-class="getClass(\'/view2\')"><a ng-href="#/view2">view2</a></li>',
 '</ul>',''].join("\n"));
-}])
-.run(['$templateCache', function($templateCache) {
-  return $templateCache.put('/partials/partial1.html', [
-'',
-'<p>This is the partial for view 1.</p>',''].join("\n"));
 }])
 .run(['$templateCache', function($templateCache) {
   return $templateCache.put('/partials/partial2.html', [
