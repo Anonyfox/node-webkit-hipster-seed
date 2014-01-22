@@ -76,7 +76,7 @@ and you'll have your final application folders located in `/dist` for each major
 
 #Licence
 
-MIT. Drop me a line if some of the used stuff collides with the MIT Licence. 
+**MIT.** You can assign any licence you want to your built apps, however you should pick the GPL if you are awesome *([like lighttable did](https://news.ycombinator.com/item?id=7024626))*. 
 
 #Feedback
 
