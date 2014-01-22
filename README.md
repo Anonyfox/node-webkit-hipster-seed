@@ -3,7 +3,7 @@ node-webkit-hipster-seed
 
 Bootstrap a crossplatform Desktop Application using tools you probably never heard of.
 
-If you're familiar with the node.js world, this sketch should get you informed, if not: an explanation](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki/how-it-works) is placed [in the wiki](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki). 
+If you're familiar with the node.js world, this sketch should get you informed, if not: an [explanation](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki/how-it-works) is placed [in the wiki](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki). 
 
 ![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
 
