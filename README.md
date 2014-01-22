@@ -3,11 +3,21 @@ node-webkit-hipster-seed
 
 Bootstrap a crossplatform Desktop Application using tools you probably never heard of.
 
-If you're familiar with the node.js world, this sketch should get you informed, if not: an [explanation](https://github.com/Anonyfox/node-webkit-hipster-seed#so-what-is-this) is placed below the workflow.
+If you're familiar with the node.js world, this sketch should get you informed, if not: an [explanation](https://github.com/Anonyfox/node-webkit-hipster-seed#so-what-is-this) is placed [in the wiki](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki). 
 
 ![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
 
-#Workflow
+#TL;DR?
+
+- `brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp` to get you started.
+- `npm run compiler` assembles your application into `/_public` and watches file changes.
+- `npm run app` starts your application locally. 
+- `npm run deploy` builds your app for windows, osx and linux. the binaries are placed in `/dist` after building. 
+- `bower install <frontend-module>` for any frontend-related stuff. jQuery, Angular-plugins, and so on. 
+- `npm install my-module` **inside of `app/assets`** to install node.js modules. 
+- see the [wiki](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki) for advanced stuff.
+
+#Workflow - detailed
 
 ###0. Prerequisites
 
@@ -64,35 +74,6 @@ and you'll have your final application folders located in `/dist` for each major
 
 *So far only tested on OSX and Windows 7. The application icon and several minor features still require some work, have a look at [grunt-node-webkit-builder](https://github.com/mllrsohn/grunt-node-webkit-builder) if you want to give a helping hand.*
 
-#So, what is this?
-
-Let's look at the sketch again:
-
-![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
-
-Imagine building a Single Page App (SPA) with [Angular.js](http://angularjs.org/), using the [brunch](http://brunch.io/) skeleton from [angular-brunch-seed](https://github.com/scotch/angular-brunch-seed).
-
-This means you're using: 
-- [Coffeescript](http://coffeescript.org/) instead of raw Javascript.
-- [LESS](http://www.lesscss.org/) instead of plain CSS.
-- [Jade](http://jade-lang.com/) as your HTML templating language.
-- [Bootstrap](http://getbootstrap.com/2.3.2/) as UI-Framework, directly integrated as AngularJS directives.
-- and of course: [Angular.js](http://angularjs.org/) as superior Client-MV*-Framework. 
-
-Now you want to build a real desktop application instead of just another web app. Fine! Just start your app with **[node-webkit](https://github.com/rogerwang/node-webkit)** instead of a http-server. Think of it as a [Chromium Browser](http://www.chromium.org/Home) merged with [Node.js](http://nodejs.org/) in one process. Basically your final application is capable of of doing *everything a modern browser can do*, plus some very interesting quirks. Look at the [wiki](https://github.com/rogerwang/node-webkit/wiki) for some features. 
-
-Most important: *you don't need any webserver at all*. instead of doing Ajax-requests, just do what you want to do on the server *directly in-place*! Yeah, that's right, you can `require "my-node-js-module"` in your Angular.js application! Oh, and you have access to the file system as you would have in Node.js. Really, it's full blown node.js and a real chromium melted together!
-
-Last but not least: ship your app with ease! Just type `npm run deploy`, and your app will be compiled for windows, osx and linux, ready to distribute. Yes, it's *that* easy. Kudos to [grunt-node-webkit-builder](https://github.com/mllrsohn/grunt-node-webkit-builder) for the toolchain. 
-
-#TL;DR?
-
-- `npm run compiler` assembles your application into `/_public` and watches file changes.
-- `npm run app` starts your application locally. 
-- `npm run deploy` builds your app for windows, osx and linux. the binaries are placed in `/dist` after building. 
-- `bower install <frontend-module>` for any frontend-related stuff. jQuery, Angular-plugins, and so on. 
-- `npm install my-module` **inside of `app/assets`** to install node.js modules. 
-
 #Licence
 
 MIT. Drop me a line if some of the used stuff collides with the MIT Licence. 
@@ -100,13 +81,5 @@ MIT. Drop me a line if some of the used stuff collides with the MIT Licence.
 #Feedback
 
 - Just use the issues section to discuss features or report bugs.
-- There is a ongoing discussion on [HackerNews](https://news.ycombinator.com/item?id=7094465). 
+- There is a thread on [HackerNews](https://news.ycombinator.com/item?id=7094465) and one on [Reddit](http://www.reddit.com/r/webdev/comments/1vumf5/workflow_for_frontend_developers_to_create/). 
 - If you have general questions not related to this project, you may tweet to [@Hisako1337](https://twitter.com/Hisako1337) (that's me.).
-
-#Roadmap
-
-So far everything described should work as is, but there are some more advanced features I'd like to see: 
-- include [Apache Cordova](http://cordova.apache.org/) in the build task, to build crossplatform *mobile* apps additionally.
-- include [Greenworks](https://github.com/greenheartgames/greenworks) to make it easy to sell your games on steam.
-- develop an automatic updating mechanism for the apps, as it is used in Google Chrome to keep the App up to date.
-- set up a default storage solution, probably [NeDB](https://github.com/louischatriot/nedb) with a thin wrapper/API. 
