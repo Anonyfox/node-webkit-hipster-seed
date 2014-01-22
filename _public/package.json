@@ -1,17 +1,54 @@
 {
-  "author": "Maximilian Stroh",
-  "name": "node-webkit-hipster-seed",
-  "description": "Package description",
+  "//": "+------------------------------------------+",
+  "//": "| LINES BEGINNING WITH '//': ARE COMMENTS! |",
+  "//": "+------------------------------------------+",
+
+  "//": "SEE https://github.com/rogerwang/node-webkit/wiki/Manifest-format FOR EXPLANATIONS OF THIS MANIFEST",
+
+  "//": "General Settings",
+  "author": "My Name",
+  "name": "MyAwesomeApp",
+  "description": "Package Description",
   "version": "0.0.1",
   "homepage": "",
+  "private": true,
   "repository": {
     "type": "git",
     "url": ""
   },
+
+  "//": "the entry point for webkit/chromium",
   "main": "index.html",
+
+  "//": "the entry point for node.js",
+  "node-main": "",
+
+  "//": "Allow multiple instances of the same app to be opened",
+  "single-instance": true,
+
+  "//": "specify arguments for the executed chromium, for a list see http://src.chromium.org/svn/trunk/src/content/public/common/content_switches.cc",
+  "chromium-args": "",
+
+  "//": "Window specific settings",
   "window": {
+    "//": "appearence",
+    "title": "my awesome app",
+    "icon": "link.png",
     "toolbar": true,
+    "frame": true,
+    "position": "center",
+
+    "//": "dimensions of the window",
     "width": 1024,
-    "height": 786
+    "height": 768,
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600,
+
+    "//": "screen settings",
+    "resizable": true,
+    "always-on-top": false,
+    "fullscreen": false,
   }
 }
