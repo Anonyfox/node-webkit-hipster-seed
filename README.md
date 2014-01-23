@@ -83,3 +83,8 @@ and you'll have your final application folders located in `/dist` for each major
 - Just use the issues section to discuss features or report bugs.
 - There is a thread on [HackerNews](https://news.ycombinator.com/item?id=7094465) and one on [Reddit](http://www.reddit.com/r/webdev/comments/1vumf5/workflow_for_frontend_developers_to_create/). 
 - If you have general questions not related to this project, you may tweet to [@Hisako1337](https://twitter.com/Hisako1337) (that's me.).
+
+#Tipping
+
+If you like what you see, feel free to tip me some DOGECOIN. Much App. Wow!
+`D6M5ibT5CUe14yWRt8ZmVQkwzp8icio5Yc`
