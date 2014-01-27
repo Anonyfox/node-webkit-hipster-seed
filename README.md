@@ -23,6 +23,7 @@ If you're familiar with the node.js world, this sketch should get you informed, 
 
 You need the following stuff installed on your machine: 
 - [Node.js & NPM](http://nodejs.org/) (see the instructions for your operating system. Ensure that globally installed NPM modules are in your PATH!)
+- Windows Users: Use the [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell) instead of CMD.exe !
 - Git. (Brunch and Bower depend on Git to work.)
 - [Brunch](http://brunch.io/) via a global npm installation: `npm install -g brunch`.
 - [Bower](http://bower.io/) via a global npm installation: `npm install -g bower`.
