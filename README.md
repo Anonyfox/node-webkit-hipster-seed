@@ -1,5 +1,6 @@
 node-webkit-hipster-seed
 ========================
+[![Gittip](http://img.shields.io/gittip/Anonyfox.png)](https://www.gittip.com/Anonyfox/)
 
 Bootstrap a crossplatform Desktop Application using tools you probably never heard of.
 
