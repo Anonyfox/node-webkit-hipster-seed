@@ -9,6 +9,7 @@ If you're familiar with the node.js world, this sketch should get you informed, 
 
 #TL;DR?
 
+- No this isn't a developer joke. It works. 
 - `brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp` to get you started.
 - `npm run compiler` assembles your application into `/_public` and watches file changes.
 - `npm run app` starts your application locally. 
@@ -23,7 +24,8 @@ If you're familiar with the node.js world, this sketch should get you informed, 
 
 You need the following stuff installed on your machine: 
 - [Node.js & NPM](http://nodejs.org/) (see the instructions for your operating system. Ensure that globally installed NPM modules are in your PATH!)
-- Windows Users: Use the [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell) instead of CMD.exe !
+- Windows Users: Use a Git Bash or the [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell) instead of CMD.exe !
+- Linux Users: You may have to do a [symlink](https://github.com/rogerwang/node-webkit/wiki/The-solution-of-lacking-libudev.so.0). 
 - Git. (Brunch and Bower depend on Git to work.) Windows users: try [this](http://git-scm.com/), there is a good usable CLI included which should work with the workflow out-of-the-box. The primitive CMD.exe is currently NOT supported. 
 - [Brunch](http://brunch.io/) via a global npm installation: `npm install -g brunch`.
 - [Bower](http://bower.io/) via a global npm installation: `npm install -g bower`.
@@ -73,7 +75,7 @@ When you're done building your awesome app, just type
 
 and you'll have your final application folders located in `/dist` for each major operating system. When performing this task the first time, it'll take several minutes to download the necessary node-webkit binaries per target system. 
 
-*So far only tested on OSX and Windows 7. The application icon and several minor features still require some work, have a look at [grunt-node-webkit-builder](https://github.com/mllrsohn/grunt-node-webkit-builder) if you want to give a helping hand.*
+*So far only tested on OSX and Windows 7/8. The application icon and several minor features still require some work, have a look at [grunt-node-webkit-builder](https://github.com/mllrsohn/grunt-node-webkit-builder) if you want to give a helping hand.*
 
 #Licence
 
@@ -85,7 +87,7 @@ and you'll have your final application folders located in `/dist` for each major
 - There is a thread on [HackerNews](https://news.ycombinator.com/item?id=7094465) and one on [Reddit](http://www.reddit.com/r/webdev/comments/1vumf5/workflow_for_frontend_developers_to_create/). 
 - If you have general questions not related to this project, you may tweet to [@Hisako1337](https://twitter.com/Hisako1337) (that's me.).
 
-#Tipping
+#Donate!
 
 If you like what you see, feel free to tip me some DOGECOIN. Much App. Wow!
 `D6M5ibT5CUe14yWRt8ZmVQkwzp8icio5Yc`
