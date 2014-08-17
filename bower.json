@@ -11,8 +11,7 @@
   "dependencies": {
     "console-polyfill": "~0.1.0",
     "jquery": "~2.0.3",
-    "bootstrap-less": "~2.3.2",
-    "bootstrap-less-themes": "https://github.com/angular-brunch/bootstrap-less-themes.git",
+    "bootstrap-less": "~3.1.1",
     "angular-bootstrap": "~0.5.0",
     "angular": "1.2.5",
     "angular-sanitize": "1.2.5",
@@ -21,15 +20,5 @@
     "angular-cookies": "1.2.5",
     "angular-mocks": "1.2.5",
     "components-underscore": "~1.5.2"
-  },
-  "overrides": {
-    "bootstrap-less": {
-      "ignore": [
-        "*"
-      ]
-    },
-    "angular-mocks": {
-      "main": "README.md"
-    }
   }
 }
