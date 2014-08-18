@@ -40,6 +40,9 @@ brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp
 
 *This may take a few minutes depending on your hardware and internet connection, since this git repo will be cloned, a bunch of npm modules will be installed, including the somewhat big [node-webkit](https://github.com/rogerwang/node-webkit), and several bower modules afterwards.*
 
+**Currently there is a bug within the nodewebkit package.** You have to rename
+`node_modules/nodewebkit/package.json` to `node_modules/nodewebkit/_package.json`
+
 ###2. Develop an AngularJS App on Steroids!
 
 `cd MyApp`. Place your typical application code under `/app`. So: 
