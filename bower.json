@@ -9,16 +9,16 @@
     "components"
   ],
   "dependencies": {
-    "console-polyfill": "~0.1.0",
-    "jquery": "~2.0.3",
-    "bootstrap-less": "~3.1.1",
-    "angular-bootstrap": "~0.5.0",
-    "angular": "1.2.5",
-    "angular-sanitize": "1.2.5",
-    "angular-resource": "1.2.5",
-    "angular-route": "1.2.5",
-    "angular-cookies": "1.2.5",
-    "angular-mocks": "1.2.5",
-    "components-underscore": "~1.5.2"
+    "console-polyfill": "~0.2",
+    "jquery": "~2.1",
+    "bootstrap-less": "~3.2",
+    "angular-bootstrap": "~0.12",
+    "angular": "~1.3",
+    "angular-sanitize": "~1.3",
+    "angular-resource": "~1.3",
+    "angular-route": "~1.3",
+    "angular-cookies": "~1.3",
+    "angular-mocks": "~1.3",
+    "components-underscore": "~1.7"
   }
 }
