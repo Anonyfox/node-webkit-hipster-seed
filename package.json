@@ -34,6 +34,9 @@
     "grunt": "~0.4.2",
     "grunt-node-webkit-builder": "~1.0",
     "nw": "~0.12",
-    "grunt-cli": "~0.1.11"
+    "grunt-cli": "~0.1.11",
+    "jasmine-core": "~2.2.0",
+    "karma-jasmine": "~0.3.5",
+    "karma-chrome-launcher": "~0.1.7"
   }
 }
