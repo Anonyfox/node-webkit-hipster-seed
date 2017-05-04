@@ -9,7 +9,7 @@ If you're familiar with the node.js world, this sketch should get you informed, 
 
 ![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
 
-#TL;DR?
+# TL;DR?
 
 - No this isn't a developer joke. It works. 
 - `brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp` to get you started.
@@ -20,9 +20,9 @@ If you're familiar with the node.js world, this sketch should get you informed, 
 - `npm install my-module` **inside of `app/assets`** to install node.js modules. 
 - see the [wiki](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki) for advanced stuff.
 
-#Workflow - detailed
+# Workflow - detailed
 
-###0. Prerequisites
+### 0. Prerequisites
 
 You need the following stuff installed on your machine: 
 - [Node.js & NPM](http://nodejs.org/) (see the instructions for your operating system. Ensure that globally installed NPM modules are in your PATH!)
@@ -32,7 +32,7 @@ You need the following stuff installed on your machine:
 - [Brunch](http://brunch.io/) via a global npm installation: `npm install -g brunch`.
 - [Bower](http://bower.io/) via a global npm installation: `npm install -g bower`.
 
-###1. Bootstrap a new Desktop App!
+### 1. Bootstrap a new Desktop App!
 
 ```
 brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp
@@ -43,7 +43,7 @@ brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp
 **Currently there is a bug within the nodewebkit package.** You have to rename
 `node_modules/nodewebkit/package.json` to `node_modules/nodewebkit/_package.json`
 
-###2. Develop an AngularJS App on Steroids!
+### 2. Develop an AngularJS App on Steroids!
 
 `cd MyApp`. Place your typical application code under `/app`. So: 
 
@@ -64,15 +64,15 @@ To run your app locally, just enter:
 
 ```npm run app```
 
-###3. Add more modules and plugins!
+### 3. Add more modules and plugins!
 
 Gone are the days of drag'n'droppin' your jQuery plugins from diverse websites into your script folders. Just use [Bower](http://bower.io/) for anything "browser related". Think of it as a NPM for the frontend. Any components installed by bower are saved in `bower_components` and automatically inserted in the compilation process. 
 
-###4. Test ALL the things!
+### 4. Test ALL the things!
 
 Since your desktop application is basically just an AngularJS app, you can use [Karma](http://karma-runner.github.io/0.10/index.html), which is especially written for testing AngularJS apps end-to-end. *(ToDo: configure karma to fire up node-webkit instead of chromium.)*
 
-###5. Deploy your App!
+### 5. Deploy your App!
 
 When you're done building your awesome app, just type 
 
